@@ -1,0 +1,102 @@
+title="APP Config"
+
+[apps]
+
+    [apps.appointold]
+    chinese="军人挂号-老版"  # 桌面快捷方式名称
+    zip="appointold.zip"    
+    dir="appointold"
+    ini="APPOINT.INI"
+    exe="appoint.exe"
+    desktop=true
+    autoUpdate=false    # 是否有自动更新程序
+
+    [apps.appoint]
+    chinese="军人挂号-新版"  # 桌面快捷方式名称
+    zip="appointhmd.zip"    
+    dir="appointhmd"
+    ini="appoint.ini"
+    exe="appoint.exe"
+    desktop=true
+    autoUpdate=false    # 是否有自动更新程序
+
+    [apps.phstock]
+    chinese="药库"   # 桌面快捷方式名称
+    zip="phstock.zip"    
+    dir="phstock"
+    ini="phstore.ini"
+    exe="phstock.exe"
+    desktop=true
+    autoUpdate=true    # 是否有自动更新程序
+
+    [apps.emrsdoctor]
+    chinese="EMRS自定义集成"   # 桌面快捷方式名称
+    zip="emrsdoctor.zip"
+    dir="emrsdoctor"
+    ini="doctor.ini"
+    exe="emrs_doctor.exe"
+    desktop=false
+    autoUpdate=true    # 是否有自动更新程序
+
+    [apps.outpdoct]
+    chinese="门诊医生站"   # 桌面快捷方式名称
+    zip="outpdoct.zip"    
+    dir="outpdoct"    
+    ini="outpdoct.ini"
+    exe="outpdoct.exe"
+    desktop=true   
+    autoUpdate=true    # 是否有自动更新程序
+
+    [apps.obilling]
+    chinese="门诊收费"  # 桌面快捷方式名称
+    zip="obilling.zip"  # 压缩包的名称
+    dir="obilling"      # 压缩包内程序目录名称
+    ini="obilling.ini"  # 程序配置文件名称
+    exe="obilling.exe"  # 程序执行文件名称
+    desktop=true        # 是否创建桌面快捷方式
+    autoUpdate=true    # 是否有自动更新程序
+
+    [apps.ibilling]
+    chinese="住院收费"   # 桌面快捷方式名称
+    zip="ibilling.zip"  # 压缩包的名称
+    dir="ibilling"      # 压缩包内程序目录名称
+    ini="ibilling.ini"  # 程序配置文件名称
+    exe="icasher.exe"  # 程序执行文件名称
+    desktop=true        # 是否创建桌面快捷方式
+    autoUpdate=true    # 是否有自动更新程序
+
+    [apps.inquire]
+    chinese="院长查询"  # 桌面快捷方式名称
+    zip="inquire.zip"  # 压缩包的名称
+    dir="inquire"      # 压缩包内程序目录名称
+    ini="inquire.ini"  # 程序配置文件名称
+    exe="inquire.exe"  # 程序执行文件名称
+    desktop=true        # 是否创建桌面快捷方式    
+    autoUpdate=true    # 是否有自动更新程序
+
+    [apps.doctor]
+    chinese="旧住院医生站" # 桌面快捷方式名称
+    zip="doctor.zip"  # 压缩包的名称
+    dir="doctor"      # 压缩包内程序目录名称
+    ini="doctor.ini"  # 程序配置文件名称
+    exe="doctor.exe"  # 程序执行文件名称
+    desktop=true        # 是否创建桌面快捷方式    
+    autoUpdate=false    # 是否有自动更新程序
+
+    [apps.presdisp]
+    chinese="门诊发药" # 桌面快捷方式名称
+    zip="presdisp.zip"  # 压缩包的名称
+    dir="presdisp"      # 压缩包内程序目录名称
+    ini="presdisp.ini"  # 程序配置文件名称
+    exe="presdisp.exe"  # 程序执行文件名称
+    desktop=true        # 是否创建桌面快捷方式
+    autoUpdate=false    # 是否有自动更新程序
+
+    [apps.nurse]
+    chinese="旧住院护士站" # 桌面快捷方式名称
+    zip="nurse.zip"  # 压缩包的名称
+    dir="nurse"      # 压缩包内程序目录名称
+    ini="nurse.ini"  # 程序配置文件名称
+    exe="nurse.exe"  # 程序执行文件名称
+    desktop=true        # 是否创建桌面快捷方式    
+    autoUpdate=false    # 是否有自动更新程序    
